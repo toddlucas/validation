@@ -1,9 +1,30 @@
 # Tier 1 ICP Messaging Framework
 ## Corporate Document Management SaaS
 
-> **Status:** Draft v1.0  
-> **Date:** February 7, 2026  
+> **Status:** Draft v1.1 - Broadened for Initial Testing  
+> **Date:** February 8, 2026  
 > **Focus:** 5 Phase 1 Priority ICPs
+
+---
+
+## ⚠️ INITIAL TEST EXCEPTION
+
+**For Micro-Test & First Validation Campaign Only:**
+
+We are **temporarily broadening** our ICP definitions to include single-entity owners (1 property, 1 brand, 1 location) alongside our core multi-entity target. This allows us to:
+
+1. **Gather more data faster** - Larger audience = quicker learning
+2. **Discover unexpected segments** - Single-entity owners planning to expand, recently incorporated
+3. **Validate the core problem** - Test if document chaos exists even at smaller scale
+4. **Let prepayment data decide** - See who actually converts and narrow from there
+
+**Key Changes for Testing:**
+- Messaging includes but doesn't exclude single-entity owners
+- Survey question on signup captures entity count for segmentation
+- Ad targeting is broader (all investors/owners, not just multi-unit)
+- Landing pages emphasize pain points that apply at any scale
+
+**Post-Validation:** Once we identify which segment converts best (single vs. multi-entity), we'll narrow messaging accordingly.
 
 ---
 
@@ -29,37 +50,46 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 
 ## Part 1: Individual ICP Messaging
 
-### ICP 1: Real Estate Investors (2-5 Properties)
+### ICP 1: Real Estate Investors (1-5+ Properties)
 
-**Audience Profile:**
-- Own 2-5 rental properties in separate LLCs
+**Audience Profile (Broadened for Testing):**
+- Own 1-5+ rental properties (may be in separate LLCs)
 - Self-managing or small team
-- Annual revenue: $200K-$1M across portfolio
+- Annual revenue: $50K-$1M+ across portfolio
 - Target price point: $49-99/month
+- **Testing focus:** All real estate investors, from first rental to small portfolio
 
 **Validated Pain Points:**
-✅ "Which LLC owns which property?" - Entity confusion
-✅ Lease renewals scattered across multiple properties
 ✅ Can't find original purchase documents when lender requests them
-✅ Annual report compliance multiplied across each LLC
-✅ Preparing for property sale = document scramble
+✅ Lease renewals and important dates easy to miss
+✅ LLC/entity paperwork scattered or disorganized
+✅ Preparing for property sale or refinancing = document scramble
 ✅ Missed lease option deadline—locked into 5-year auto-renewal
 ✅ Forgot LLC annual filing—entity administratively dissolved
+✅ "Which LLC owns which property?" (for multi-property owners)
+✅ Annual report compliance burden (amplified with multiple LLCs)
 
-**Primary Message:**
-*"Stop Losing Documents Across Your Property Portfolio"*
+**Primary Message (Broadened):**
+*"Never Lose Track of Your Property Documents Again"*
 
 **Supporting Messages:**
-- "All your properties, all your LLCs, organized in one view—files stay in your Drive"
-- "Never miss an LLC annual filing or lease renewal deadline again"
+- "All your property documents organized in one place—files stay in your Drive"
+- "Never miss an LLC annual filing or lease renewal deadline"
 - "Find any property document in 10 seconds, not 10 hours"
 - "Organized records = faster refinancing and easier sales"
 
 **Emotional Hooks:**
 - **Fear:** "Lender denied your refi because you couldn't produce the operating agreement"
 - **Fear:** "Missed lease option deadline—now you're stuck with auto-renewal terms"
-- **Aspiration:** "Scale to 10+ properties without drowning in paperwork"
+- **Aspiration:** "Scale your portfolio without drowning in paperwork"
 - **Frustration:** "Spent 3 hours looking for a lease renewal that should've been easy to find"
+
+**Survey Question for Segmentation:**
+*"How many rental properties do you currently own?"*
+- 1
+- 2-5
+- 6-20
+- 20+
 
 **Language They Use:**
 - "My properties" (not "my portfolio" - yet)
@@ -69,37 +99,47 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 
 ---
 
-### ICP 2: E-commerce Multi-Brand Operators
+### ICP 2: E-commerce Brand Operators (1-5+ Brands)
 
-**Audience Profile:**
-- Own 2-5 e-commerce brands (Shopify, Amazon, or hybrid)
-- Each brand often in separate LLC
-- Annual revenue: $500K-$5M per brand
-- Target price point: $99-199/month
+**Audience Profile (Broadened for Testing):**
+- Own 1-5+ e-commerce brands (Shopify, Amazon, or hybrid)
+- May have separate LLCs or single entity
+- Annual revenue: $100K-$5M+ per brand
+- Target price point: $49-199/month
+- **Testing focus:** All e-commerce owners, from first brand to multi-brand operators
 
 **Validated Pain Points:**
-✅ Separate entity documentation for each brand (which LLC is which?)
 ✅ Trademark assignments and IP documentation scattered
-✅ Supplier contracts across multiple brands - where are they?
-✅ Platform compliance documentation (Amazon, Shopify) hard to find
+✅ Supplier contracts hard to find when needed
+✅ Platform compliance documentation (Amazon, Shopify) disorganized
 ✅ Preparing for exit or investment = document nightmare
 ✅ Trademark renewal missed—lost protection on brand name
 ✅ Supplier contract auto-renewed at old (worse) pricing terms
+✅ Entity documentation for each brand (which LLC is which?) - for multi-brand
+✅ Tracking documents across multiple brands - for multi-brand
 
-**Primary Message:**
-*"Organize Your Multi-Brand Empire Before Your Next Exit"*
+**Primary Message (Broadened):**
+*"Organize Your E-commerce Business for Growth or Exit"*
 
 **Supporting Messages:**
-- "All your brands, all your entities—organized in one view, files stay in your storage"
-- "Track IP, contracts, and entity docs across all your brands"
+- "All your brand documents organized in one place—files stay in your storage"
+- "Track IP, contracts, and entity docs for all your brands"
 - "Due diligence ready in days, not weeks"
 - "Never miss a trademark renewal or supplier contract deadline"
+- "From 1 brand to 5+ without the document chaos"
 
 **Emotional Hooks:**
-- **Fear:** "Aggregator makes offer but you can't prove IP ownership across brands"
+- **Fear:** "Buyer makes offer but you can't prove IP ownership"
 - **Fear:** "Amazon suspended your account and you can't find compliance docs"
 - **Aspiration:** "Build to sell - or build to scale with confidence"
-- **Frustration:** "Searching 4 different Drive folders trying to find one supplier agreement"
+- **Frustration:** "Searching multiple Drive folders trying to find one supplier agreement"
+
+**Survey Question for Segmentation:**
+*"How many e-commerce brands/stores do you currently operate?"*
+- 1
+- 2-5
+- 6-10
+- 10+
 
 **Language They Use:**
 - "My brands" (proud ownership)
@@ -110,37 +150,47 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 
 ---
 
-### ICP 3: QSR Franchise Operators (3-10 Locations)
+### ICP 3: Franchise Operators (1-10+ Locations)
 
-**Audience Profile:**
-- Own 3-10 quick-service restaurant franchises
-- Each location often separate entity
-- Annual revenue: $500K-$2M per location
-- Target price point: $99-199/month
+**Audience Profile (Broadened for Testing):**
+- Own 1-10+ franchise locations (QSR or other)
+- May have separate entities per location
+- Annual revenue: $300K-$2M+ per location
+- Target price point: $49-199/month
+- **Testing focus:** All franchise owners, from first location to multi-unit operators
 
 **Validated Pain Points:**
 ✅ Franchisor audits require complete documentation (failing = costly)
-✅ Lease renewals across multiple locations - easy to miss deadlines
+✅ Lease renewals and important deadlines easy to miss
 ✅ Health department and compliance documentation scattered
 ✅ Franchise agreement amendments - which version is current?
 ✅ Selling a location = proving clean records
 ✅ Missed franchise agreement renewal window—franchisor increased fees
-✅ Lease option deadline passed—forced to relocate location
+✅ Lease option deadline passed—forced to relocate
+✅ Managing documents across multiple locations (for multi-unit)
+✅ Entity separation for each location (for multi-unit)
 
-**Primary Message:**
-*"Pass Every Franchisor Audit. Every Time."*
+**Primary Message (Broadened):**
+*"Stay Audit-Ready and Compliant. Every Location."*
 
 **Supporting Messages:**
-- "All your locations, all your entities—organized in one view, files stay in your storage"
+- "All your franchise documents organized in one place—files stay in your storage"
 - "Never miss a lease renewal or franchise compliance deadline"
-- "Search across all locations instantly—find any document in seconds"
-- "From 3 locations to 10+ without the paperwork chaos"
+- "Find any document instantly—ready for audits or inspections"
+- "From 1 location to 10+ without the paperwork chaos"
 
 **Emotional Hooks:**
 - **Fear:** "Failed franchisor audit threatens your license to operate"
-- **Fear:** "Missed lease option—now you're forced to relocate location #3"
+- **Fear:** "Missed lease option—now you're forced to relocate"
 - **Aspiration:** "Grow your territory without drowning in compliance"
 - **Frustration:** "Scrambling to find docs for health inspection or franchisor visit"
+
+**Survey Question for Segmentation:**
+*"How many franchise locations do you currently operate?"*
+- 1
+- 2-5
+- 6-10
+- 10+
 
 **Language They Use:**
 - "My locations" (not brands or properties)
@@ -193,30 +243,32 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 
 ---
 
-### ICP 5: B2B SaaS Startups (Post-Seed to Series A)
+### ICP 5: B2B SaaS Startups (Pre-Seed to Series A+)
 
-**Audience Profile:**
-- 5-30 employees
-- Raised $500K-$5M in funding
-- First institutional board, professionalizing
-- Target price point: $99-199/month
+**Audience Profile (Broadened for Testing):**
+- 2-50+ employees
+- Raised $0-$10M+ in funding (or bootstrapped)
+- Building or professionalizing governance
+- Target price point: $49-199/month
+- **Testing focus:** All B2B SaaS founders dealing with corporate document chaos
 
 **Validated Pain Points:**
 ✅ Investor due diligence revealed embarrassing gaps in documentation
-✅ Multiple financing rounds = complex documentation across different storage locations
-✅ Need proper board resolutions and minutes (investor expects it)
+✅ Financing rounds = complex documentation across different storage locations
+✅ Need proper board resolutions and minutes (investor/advisor expects it)
 ✅ Professionalizing from "startup chaos" to "real company"
-✅ Preparing for Series A (or just completed it)
+✅ Preparing for fundraising or just completed a round
 ✅ Stock option grant window expired—employee retention crisis
-✅ Failed to hold required annual meeting—corporate formalities questioned in DD
+✅ Failed to hold required annual meeting—corporate formalities questioned
+✅ Corporate documents scattered across email, Slack, Drive, Notion
 
-**Primary Message:**
-*"Impress Your Board. Not Your Lawyers' Bills."*
+**Primary Message (Broadened):**
+*"Professional Governance Without the Overhead"*
 
 **Supporting Messages:**
-- "Corporate governance your investors expect, without the overhead"
+- "Corporate governance that scales with you—from incorporation to Series A+"
 - "Never miss board meetings, annual filings, or option grant deadlines"
-- "From seed chaos to Series A ready in weeks, not months"
+- "Organize your corporate chaos in weeks, not months"
 - "Save $5K-20K in lawyer fees during due diligence"
 
 **Emotional Hooks:**
@@ -224,6 +276,13 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 - **Fear:** "Missed annual meeting requirement—now DD questions your corporate formalities"
 - **Aspiration:** "Scale from startup to real company with solid governance"
 - **Frustration:** "Spending $10K on lawyers to reconstruct records you thought you had"
+
+**Survey Question for Segmentation:**
+*"What stage is your startup currently at?"*
+- Pre-seed / Bootstrapped
+- Seed funded ($500K-$2M)
+- Series A ($2M-$10M)
+- Series B+ ($10M+)
 
 **Language They Use:**
 - "Our investors" (accountability upward)
@@ -703,6 +762,136 @@ Based on features document review and MVP realism, we're focusing on deliverable
 
 ---
 
-**Document Status:** Updated February 7, 2026 (MVP-focused refinements)  
-**Next Steps:** Apply to landing pages, ad copy, and email sequences  
-**Feedback Needed:** Does the MVP messaging feel honest and deliverable?
+## Part 9: Testing Strategy for Broadened ICPs
+
+### Why We Broadened for Initial Testing
+
+**Original Hypothesis:** Multi-entity owners (2-5+ properties/brands/locations) have acute pain
+**Testing Hypothesis:** Single-entity owners may also have this pain OR be planning to expand
+
+### How to Execute Broadened Testing
+
+**1. Ad Targeting:**
+- **Broad:** Target all "Real Estate Investors" not just "Multi-Property Investors"
+- **Broad:** Target all "E-commerce Owners" not just "Multi-Brand Operators"
+- **Broad:** Target all "Franchise Owners" not just "Multi-Unit Operators"
+- **Why:** Larger audience = faster data, lower CPC, discover unexpected segments
+
+**2. Ad Copy - Two Approaches to Test:**
+
+**Approach A: Neutral (Doesn't Exclude Single-Entity):**
+- "Tired of digging through Google Drive for your LLC documents?"
+- "Never miss a lease renewal or annual filing deadline again"
+- "Organize your corporate documents in one place"
+
+**Approach B: Leans Multi-Entity (But Not Exclusive):**
+- "Managing multiple properties/brands/locations? Organize your documents"
+- "From 1 to 10+ without the paperwork chaos"
+- "All your entities organized in one place"
+
+**3. Landing Page Headlines:**
+
+**Option 1: Inclusive**
+- "Never Lose Track of Your Property Documents Again"
+- "Organize Your E-commerce Business for Growth or Exit"
+- "Stay Audit-Ready and Compliant"
+
+**Option 2: Multi-Entity Leaning**
+- "Stop Losing Documents Across Your Portfolio"
+- "Organize Your Multi-Brand Business"
+- "All Your Locations, All Your Documents"
+
+**4. Survey Question (CRITICAL):**
+
+Add immediately after email signup, before waitlist number:
+
+```
+Quick question to help us serve you better:
+
+[For Real Estate]
+"How many rental properties do you currently own?"
+○ 1
+○ 2-5
+○ 6-20
+○ 20+
+
+[For E-commerce]
+"How many e-commerce brands/stores do you currently operate?"
+○ 1
+○ 2-5
+○ 6-10
+○ 10+
+
+[For Franchise]
+"How many franchise locations do you currently operate?"
+○ 1
+○ 2-5
+○ 6-10
+○ 10+
+```
+
+### What to Analyze
+
+**By Segment (Single vs. Multi-Entity):**
+
+| Metric | Single-Entity | Multi-Entity | Winner |
+|--------|---------------|--------------|--------|
+| Signup Rate | % | % | ? |
+| Prepayment Rate | % | % | ? |
+| Cost Per Prepayment | $X | $X | ? |
+| Time on Page | Xs | Xs | ? |
+| Referral Activity | X referrals | X referrals | ? |
+
+**Decision Criteria:**
+
+**If Multi-Entity wins decisively (2x+ better prepayment rate):**
+- ✅ Original hypothesis validated
+- ✅ Narrow messaging to multi-entity only for validation campaign
+- ✅ Follow Giovanni's hyper-niche approach
+
+**If Single-Entity performs similarly or better:**
+- 🤔 Broader market than expected
+- 🤔 Keep broader messaging for validation campaign
+- 🤔 Consider if single-entity is "planning to expand" segment
+
+**If Both convert well:**
+- ✅ Create separate landing pages for each segment
+- ✅ Test messaging variations for each
+- ✅ May have two viable ICPs instead of one
+
+### Messaging Adjustments Based on Results
+
+**If narrowing to multi-entity after test:**
+- Change: "Never lose track" → "Stop losing documents across your portfolio"
+- Change: "Organize your business" → "Organize your multi-brand empire"
+- Change: "From 1 to 10+" → "From 3 to 30 without the chaos"
+- Add: "Which LLC owns which property?" prominently
+
+**If keeping broad:**
+- Keep: Inclusive headlines that don't exclude single-entity
+- Add: "Whether you have 1 property or 10..."
+- Emphasize: "Scales with you from day one"
+
+### Timeline for Decision
+
+**Micro-Test ($100, 3-5 days):**
+- Goal: 20-40 signups total
+- Segment by survey responses
+- Early signal on which converts better
+
+**Validation Campaign ($150-200, 7-10 days):**
+- Goal: 50-100 signups total
+- Enough data to see prepayment rate by segment
+- Make decision: narrow or stay broad
+
+**Post-Validation:**
+- Update this document with findings
+- Lock in messaging for MVP build
+- Create segment-specific variations if needed
+
+---
+
+**Document Status:** Updated February 8, 2026 (Broadened for initial testing)  
+**Next Steps:** Apply broadened messaging to landing pages and ad copy  
+**Testing Focus:** Survey responses will tell us if we should narrow or stay broad  
+**Decision Point:** After $250-300 total spend and 50-100 signups
