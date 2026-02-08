@@ -90,9 +90,12 @@ export default function Home() {
 
           {/* Footer tagline */}
           <div className="pt-12">
-            <p className="text-sm text-zinc-600 tracking-wide">
+            <a 
+              href="/validation" 
+              className="text-sm text-zinc-600 tracking-wide hover:text-zinc-500 transition-colors cursor-default"
+            >
               COMING SOON
-            </p>
+            </a>
           </div>
         </div>
       </main>
