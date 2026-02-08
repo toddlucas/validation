@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -41,6 +42,20 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
       {/* Hero Section */}
       <section className="px-4 py-20 bg-gradient-to-b from-zinc-50 to-white dark:from-zinc-900 dark:to-black">
         <div className="container mx-auto max-w-5xl">
+          {/* Hero Image */}
+          {page.heroImage && (
+            <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
+              <Image
+                src={page.heroImage}
+                alt={page.title}
+                width={1920}
+                height={1080}
+                className="w-full h-auto object-cover"
+                priority
+              />
+            </div>
+          )}
+          
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl mb-6">
               {page.title}
