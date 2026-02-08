@@ -12,6 +12,7 @@ export interface ICPLandingPage {
   painPoints: string[];
   ctaText: string;
   ctaUrl: string;
+  accentColor?: string;
   content: string;
 }
 
@@ -38,6 +39,7 @@ export function getAllICPs(): ICPLandingPage[] {
         painPoints: data.painPoints || [],
         ctaText: data.ctaText || 'Join Waitlist',
         ctaUrl: data.ctaUrl || '#waitlist',
+        accentColor: data.accentColor,
         content,
       };
     });
@@ -59,6 +61,7 @@ export function getICPBySlug(slug: string): ICPLandingPage | null {
       painPoints: data.painPoints || [],
       ctaText: data.ctaText || 'Join Waitlist',
       ctaUrl: data.ctaUrl || '#waitlist',
+      accentColor: data.accentColor,
       content,
     };
   } catch {

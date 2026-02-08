@@ -69,14 +69,22 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
 
           {/* CTA */}
           <div className="flex justify-center mb-16">
-            <Button size="lg" className="text-lg px-8 py-6 shadow-xl" asChild>
+            <Button 
+              size="lg" 
+              className="text-lg px-8 py-6 shadow-xl" 
+              style={page.accentColor ? { backgroundColor: page.accentColor } : undefined}
+              asChild
+            >
               <a href={page.ctaUrl}>{page.ctaText}</a>
             </Button>
           </div>
 
           {/* Pain Points */}
           {page.painPoints.length > 0 && (
-            <Card className="max-w-3xl mx-auto bg-white/95 dark:bg-zinc-900/95 backdrop-blur-sm">
+            <Card 
+              className="max-w-3xl mx-auto bg-white/95 dark:bg-zinc-900/95 backdrop-blur-sm border-2"
+              style={page.accentColor ? { borderColor: page.accentColor } : undefined}
+            >
               <CardContent className="pt-6">
                 <h2 className="text-2xl font-semibold mb-6 text-center">
                   Sound familiar?
@@ -84,7 +92,10 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
                 <ul className="space-y-4">
                   {page.painPoints.map((point, index) => (
                     <li key={index} className="flex items-start gap-3">
-                      <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 
+                        className="h-6 w-6 flex-shrink-0 mt-0.5" 
+                        style={page.accentColor ? { color: page.accentColor } : undefined}
+                      />
                       <span className="text-lg">{point}</span>
                     </li>
                   ))}
@@ -113,7 +124,12 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
           <p className="text-lg text-muted-foreground mb-8">
             Join the waitlist and be among the first to experience Prise.
           </p>
-          <Button size="lg" className="text-lg px-8 py-6" asChild>
+          <Button 
+            size="lg" 
+            className="text-lg px-8 py-6" 
+            style={page.accentColor ? { backgroundColor: page.accentColor } : undefined}
+            asChild
+          >
             <a href={page.ctaUrl}>{page.ctaText}</a>
           </Button>
         </div>
