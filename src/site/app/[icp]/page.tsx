@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { getAllICPs, getICPBySlug } from '@/lib/icp';
 import { MDXRemote } from 'next-mdx-remote/rsc';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 export async function generateStaticParams() {
   const icps = getAllICPs();
@@ -39,6 +40,11 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
 
   return (
     <div className="min-h-screen">
+      {/* Floating Theme Toggle */}
+      <div className="fixed top-4 left-4 z-50">
+        <ThemeToggle />
+      </div>
+
       {/* Hero Section */}
       <section className="relative px-4 py-32 overflow-hidden">
         {/* Background Image */}
@@ -85,7 +91,7 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
               className="max-w-3xl mx-auto bg-white/95 dark:bg-zinc-900/95 backdrop-blur-sm border-2"
               style={page.accentColor ? { borderColor: page.accentColor } : undefined}
             >
-              <CardContent className="pt-6">
+              <CardContent className="pt-1">
                 <h2 className="text-2xl font-semibold mb-6 text-center">
                   Sound familiar?
                 </h2>
