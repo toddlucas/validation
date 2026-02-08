@@ -15,6 +15,16 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 2. **Segment Common Messaging** - Shared across all 5 Tier 1 ICPs
 3. **Universal Messaging** - Core value proposition for all audiences
 
+**Document Contents:**
+- Part 1: Individual ICP Messaging (5 ICPs)
+- Part 2: Segment Common Messaging
+- Part 3: Universal Messaging
+- Part 4: Messaging Architecture Summary
+- Part 5: Content Tone & Voice Guidelines
+- Part 6: Testing & Iteration Plan
+- Part 7: Quick Reference Tables
+- Part 8: MVP Messaging Focus (February 2026 Update)
+
 ---
 
 ## Part 1: Individual ICP Messaging
@@ -33,18 +43,21 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 ✅ Can't find original purchase documents when lender requests them
 ✅ Annual report compliance multiplied across each LLC
 ✅ Preparing for property sale = document scramble
+✅ Missed lease option deadline—locked into 5-year auto-renewal
+✅ Forgot LLC annual filing—entity administratively dissolved
 
 **Primary Message:**
 *"Stop Losing Documents Across Your Property Portfolio"*
 
 **Supporting Messages:**
-- "Track every lease, deed, and entity document in one place"
-- "Never miss an LLC annual filing again"
+- "All your properties, all your LLCs, organized in one view—files stay in your Drive"
+- "Never miss an LLC annual filing or lease renewal deadline again"
 - "Find any property document in 10 seconds, not 10 hours"
 - "Organized records = faster refinancing and easier sales"
 
 **Emotional Hooks:**
 - **Fear:** "Lender denied your refi because you couldn't produce the operating agreement"
+- **Fear:** "Missed lease option deadline—now you're stuck with auto-renewal terms"
 - **Aspiration:** "Scale to 10+ properties without drowning in paperwork"
 - **Frustration:** "Spent 3 hours looking for a lease renewal that should've been easy to find"
 
@@ -70,20 +83,23 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 ✅ Supplier contracts across multiple brands - where are they?
 ✅ Platform compliance documentation (Amazon, Shopify) hard to find
 ✅ Preparing for exit or investment = document nightmare
+✅ Trademark renewal missed—lost protection on brand name
+✅ Supplier contract auto-renewed at old (worse) pricing terms
 
 **Primary Message:**
 *"Organize Your Multi-Brand Empire Before Your Next Exit"*
 
 **Supporting Messages:**
+- "All your brands, all your entities—organized in one view, files stay in your storage"
 - "Track IP, contracts, and entity docs across all your brands"
 - "Due diligence ready in days, not weeks"
-- "Every trademark, every supplier contract, instantly findable"
-- "Professional records = higher valuation multiples"
+- "Never miss a trademark renewal or supplier contract deadline"
 
 **Emotional Hooks:**
-- **Fear:** "Aggregator makes offer but you can't prove IP ownership"
+- **Fear:** "Aggregator makes offer but you can't prove IP ownership across brands"
+- **Fear:** "Amazon suspended your account and you can't find compliance docs"
 - **Aspiration:** "Build to sell - or build to scale with confidence"
-- **Frustration:** "Amazon suspended your account and you can't find the compliance docs"
+- **Frustration:** "Searching 4 different Drive folders trying to find one supplier agreement"
 
 **Language They Use:**
 - "My brands" (proud ownership)
@@ -108,18 +124,21 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 ✅ Health department and compliance documentation scattered
 ✅ Franchise agreement amendments - which version is current?
 ✅ Selling a location = proving clean records
+✅ Missed franchise agreement renewal window—franchisor increased fees
+✅ Lease option deadline passed—forced to relocate location
 
 **Primary Message:**
 *"Pass Every Franchisor Audit. Every Time."*
 
 **Supporting Messages:**
-- "All your franchise docs, leases, and compliance records in one system"
-- "Never miss a renewal deadline across your locations"
+- "All your locations, all your entities—organized in one view, files stay in your storage"
+- "Never miss a lease renewal or franchise compliance deadline"
+- "Search across all locations instantly—find any document in seconds"
 - "From 3 locations to 10+ without the paperwork chaos"
-- "Clean records = faster location sales and acquisitions"
 
 **Emotional Hooks:**
 - **Fear:** "Failed franchisor audit threatens your license to operate"
+- **Fear:** "Missed lease option—now you're forced to relocate location #3"
 - **Aspiration:** "Grow your territory without drowning in compliance"
 - **Frustration:** "Scrambling to find docs for health inspection or franchisor visit"
 
@@ -146,18 +165,22 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 ✅ No systematic documentation - "dad just knew where everything was"
 ✅ Want to professionalize without offending founder
 ✅ Estate planning and succession considerations
+✅ Annual corporate meetings not held—bylaws say decisions may be invalid
+✅ Insurance renewal missed—gap in coverage during an incident
 
 **Primary Message:**
 *"Modernize the Family Business Without Losing Its Soul"*
 
 **Supporting Messages:**
-- "Bring 20+ years of paper records into the digital age"
-- "Professionalize governance while honoring your parents' legacy"
+- "Organize the filing cabinets—bring 20+ years of records into one searchable system"
+- "Your files stay in your storage—we add the governance intelligence on top"
+- "Never miss critical deadlines: annual meetings, filings, insurance renewals"
 - "Find any document without calling dad"
 - "Protect the business your family built"
 
 **Emotional Hooks:**
-- **Fear:** "Bank loan denied because you couldn't find the LLC operating agreement"
+- **Fear:** "Bank loan denied because you couldn't find the LLC operating agreement in the filing cabinet"
+- **Fear:** "Insurance lapsed from missed renewal—now there's a claim with no coverage"
 - **Aspiration:** "Take the business to the next level while honoring the foundation"
 - **Frustration:** "You're the CEO but you don't know where critical documents are"
 
@@ -180,24 +203,27 @@ This document defines messaging for our 5 Tier 1 ICPs (Ideal Customer Profiles).
 
 **Validated Pain Points:**
 ✅ Investor due diligence revealed embarrassing gaps in documentation
-✅ Multiple financing rounds = complex cap table and messy documentation
+✅ Multiple financing rounds = complex documentation across different storage locations
 ✅ Need proper board resolutions and minutes (investor expects it)
 ✅ Professionalizing from "startup chaos" to "real company"
 ✅ Preparing for Series A (or just completed it)
+✅ Stock option grant window expired—employee retention crisis
+✅ Failed to hold required annual meeting—corporate formalities questioned in DD
 
 **Primary Message:**
 *"Impress Your Board. Not Your Lawyers' Bills."*
 
 **Supporting Messages:**
 - "Corporate governance your investors expect, without the overhead"
-- "From seed chaos to Series A ready in weeks"
-- "Board minutes, resolutions, and documents - automatically organized"
-- "Professional records = easier fundraising and higher valuations"
+- "Never miss board meetings, annual filings, or option grant deadlines"
+- "From seed chaos to Series A ready in weeks, not months"
+- "Save $5K-20K in lawyer fees during due diligence"
 
 **Emotional Hooks:**
-- **Fear:** "Investor asks for board resolution, you realize you never documented it"
+- **Fear:** "Investor asks for board resolution, you realize it's lost in Slack messages"
+- **Fear:** "Missed annual meeting requirement—now DD questions your corporate formalities"
 - **Aspiration:** "Scale from startup to real company with solid governance"
-- **Frustration:** "Spending $5K/quarter on lawyers to recreate records you should have"
+- **Frustration:** "Spending $10K on lawyers to reconstruct records you thought you had"
 
 **Language They Use:**
 - "Our investors" (accountability upward)
@@ -242,6 +268,31 @@ All 5 ICPs experience these scenarios:
    - Chaos increases exponentially with each new entity/location
    - Outcome: Growth stalls or quality of life plummets
 
+### Additional Common Pain Points
+
+**Deadline Disasters:**
+- Missed contract renewal dates—auto-renewed at worse terms
+- Lease option deadlines passed—forced into bad situations
+- Annual LLC filings forgotten—entity administratively dissolved
+- Insurance renewals missed—coverage gaps at worst possible time
+- Trademark/license expirations costing thousands to remediate
+- No systematic tracking—relying on memory or scattered calendar reminders
+
+**Entity Confusion Chaos:**
+- "Which LLC owns this asset/property/brand?"
+- "Which entity is this contract under?"
+- Documents scattered across multiple Drive folders or SharePoint sites
+- Need all docs for Entity B for refinancing—where are they?
+- Accidentally commingled entities—creating piercing risk
+- No clear organization by entity—everything mixed together
+
+**Search & Discovery Nightmare:**
+- Searching 3-5 different storage locations to find one document
+- Multiple versions in different places—which one is official?
+- Important documents buried in email threads
+- Can't search across all entities simultaneously
+- Person who filed it is gone—no way to find it
+
 ### Common Message Themes
 
 **1. From Chaos to Confidence**
@@ -272,17 +323,31 @@ All 5 ICPs experience these scenarios:
 ### Common Objection Handling
 
 **"I can just use Google Drive/SharePoint"**
-- Yes, those hold files. But do they track renewals? Remind you of deadlines? Organize by entity AND document type? Know which operating agreement is current across 5 LLCs?
+- Drive stores files. We understand corporate governance.
+- We connect to your existing Drive/SharePoint and add:
+  - Renewal tracking and deadline reminders
+  - Organization by entity AND document type
+  - Search across all your entities and storage locations
+  - Your files stay in Drive—you get governance intelligence on top
+- Does Drive track your lease renewals? Remind you of annual LLC filings? Organize across 5 different entities?
 
 **"I don't have time to organize everything"**
-- That's exactly why you need this. The time you spend searching adds up. We make it easy to upload and auto-organize.
+- Your files stay where they are—no migration needed.
+- Connect your existing storage (Drive, SharePoint, Dropbox).
+- We add the governance layer on top—organization + deadline tracking.
+- The time you spend searching every week adds up to more than setup time.
 
 **"This seems expensive"**
-- Compare to: (1) One lawyer hour ($300-500) to find a lost document, (2) One failed deal because records weren't ready, (3) One missed deadline penalty. We pay for ourselves in the first month.
+- Compare to: 
+  - One missed deadline penalty: $500-2,000
+  - One lawyer hour to find a lost document: $300-500
+  - Due diligence record reconstruction: $5,000-20,000
+  - One failed deal because records weren't ready: priceless
+- We pay for ourselves with the first deadline you don't miss.
 
 **"My business is too simple/complex"**
 - Too simple: Wait until you add entity #3 - that's when chaos starts. Set it up right now.
-- Too complex: That's exactly who we built this for. Complexity is our specialty.
+- Too complex: That's exactly who we built this for. Multi-entity complexity is our specialty.
 
 ---
 
@@ -298,28 +363,43 @@ All 5 ICPs experience these scenarios:
 
 ### Universal Benefits
 
+**Works With Your Existing Storage:**
+- Connects to SharePoint, Google Drive, Dropbox, Box
+- Your files stay where they are—secure and backed up
+- We add governance intelligence on top
+- No migration, no new storage system to manage
+- One view across all your storage locations
+
+**Organized by Entity:**
+- See all documents for each LLC, corporation, or partnership
+- Works across multiple entities simultaneously
+- Track which entity owns what
+- Stop mixing documents across entities
+
 **Organized by Document Type:**
 - Operating agreements, bylaws, and formation documents
 - Contracts and leases (with expiration tracking)
 - Board resolutions and minutes
 - Compliance and regulatory filings
 - Insurance policies, licenses, permits
-- Financial documents (tax returns, audits)
+- Financial documents, tax returns, and audits
 
-**Organized by Entity:**
-- Works across multiple LLCs, corporations, partnerships
-- See everything for one entity or across all entities
-- Track entity formation, amendments, and changes
+**Automated Deadline Tracking:**
+- Never miss renewal dates, expirations, or filing deadlines
+- Automated reminders for contracts, leases, annual reports
+- Compliance calendar for each entity
+- Track amendments and document relationships
 
-**Automated Tracking:**
-- Deadline reminders (renewals, expirations, filings)
-- Version control (know which document is current)
-- Audit trail (who uploaded, when, what changed)
+**Unified Search:**
+- Search all entities, all storage locations, one search box
+- Find documents in seconds, not hours
+- Filter by entity, document type, date, or keyword
+- No more searching 5 different Drive folders or SharePoint sites
 
-**Quick Access:**
-- Search across all documents in seconds
-- Filter by entity, type, date, or custom tags
+**Quick Access & Sharing:**
 - Download for sharing with banks, lawyers, investors
+- Generate organized document packages
+- Always know where to find what you need
 
 **Security & Compliance:**
 - Bank-level encryption
@@ -357,14 +437,16 @@ All 5 ICPs experience these scenarios:
 ### Universal Pricing Philosophy
 
 **Positioning:**
-- Not enterprise ($10K+/year) - too expensive
-- Not free tools (Drive/Dropbox) - too basic
+- Not enterprise entity management ($10K+/year) - too expensive
+- Not free storage tools (Drive/Dropbox) - too basic, no governance intelligence
 - Goldilocks zone: $49-199/month depending on complexity
 
 **Price Anchoring:**
-- Compare to: One hour of legal help ($300-500)
-- Compare to: Due diligence cleanup ($20K-50K)
-- Compare to: Your time searching (hours per week)
+- Compare to: Due diligence record reconstruction ($5,000-20,000)
+- Compare to: One missed deadline penalty ($500-2,000)
+- Compare to: One hour of legal help to find documents ($300-500)
+- Compare to: Your time searching every week (hours × your hourly value)
+- We pay for ourselves with the first crisis you avoid
 
 **Pricing Tiers (Draft):**
 - **Starter: $49/month** - Single entity, 500 documents, basic features
@@ -378,20 +460,20 @@ All 5 ICPs experience these scenarios:
 ```
 ┌─────────────────────────────────────────────────────────┐
 │           UNIVERSAL MESSAGING (Layer 3)                  │
-│  "Never lose a corporate document again"                │
-│  • All entities, all documents, always findable         │
-│  • Affordable, simple, powerful                          │
-│  • $49-199/month vs $10K+ enterprise tools              │
+│  "Governance intelligence for your existing storage"   │
+│  • Works with Drive/SharePoint - no migration           │
+│  • All entities organized, all deadlines tracked        │
+│  • $49-199/month vs $5K-20K in cleanup costs            │
 └─────────────────────────────────────────────────────────┘
                             ↑
 ┌─────────────────────────────────────────────────────────┐
 │        SEGMENT COMMON MESSAGING (Layer 2)                │
 │  Shared across all 5 Tier 1 ICPs:                       │
 │  • "The Oh Shit Moment" - can't find critical doc       │
+│  • Deadline disasters - missed renewals = $$ penalties  │
+│  • Entity confusion - which LLC owns what?              │
 │  • Growth chaos - worked for 2, breaks at 5             │
-│  • Time/money waste - hours searching, $$$$ in fees     │
-│  • Professionalize without overhead                     │
-│  • Audit/due diligence anxiety                          │
+│  • Search nightmare - 5 folders to find 1 document      │
 └─────────────────────────────────────────────────────────┘
                             ↑
 ┌──────────────┬──────────────┬───────────────┬──────────────┬──────────────┐
@@ -541,6 +623,86 @@ After first 50 signups per ICP, survey:
 
 ---
 
-**Document Status:** Ready for review and feedback  
+## Part 8: MVP Messaging Focus (February 2026 Update)
+
+### What We Emphasize in Early Messaging
+
+Based on features document review and MVP realism, we're focusing on deliverable value:
+
+**✅ Core Messaging Pillars:**
+
+1. **Smart Layer Architecture** (Unique Differentiator)
+   - "Works with your existing storage—no migration needed"
+   - "Files stay in Drive/SharePoint—we add governance intelligence"
+   - Removes biggest objection and positions us uniquely
+
+2. **Deadline Tracking** (High Pain, Deliverable)
+   - Never miss lease renewals, annual filings, contract expirations
+   - Automated reminders and compliance calendar
+   - Consequences are real and expensive (dissolution, penalties, bad terms)
+
+3. **Entity Organization** (Core Multi-Entity Pain)
+   - See all documents by entity
+   - Stop mixing entities (piercing risk)
+   - Track "which LLC owns what"
+
+4. **Unified Search** (Immediate Value)
+   - Search across all storage locations
+   - Find documents in seconds vs. searching 5 folders
+   - Filter by entity, type, date
+
+5. **Document Relationships** (Simple, Valuable)
+   - Connect documents to amendments
+   - Track document history and connections
+   - Know which version is official
+
+### What We've Softened for MVP
+
+**⏸️ De-emphasized Until Later:**
+
+1. **Advanced Version Control**
+   - Rely on underlying platform (Drive/SharePoint) for versioning
+   - Focus on organization and tagging, not sophisticated version comparison
+   - Changed: ~~"Complete version history"~~ → "Track amendments and updates"
+
+2. **Approval Workflows / Authority Tracking**
+   - Requires workflow engine (Phase 2)
+   - Changed: ~~"Who approved what and when"~~ → "Organize approval documentation"
+   - Keep: Simple stakeholder directory (names and roles)
+
+3. **Immutable Audit Trails**
+   - Requires proprietary database and audit system
+   - Changed: ~~"Immutable audit log"~~ → "Track document changes"
+   - Focus on organization proving compliance, not forensic audit trails
+
+### Messaging Principles for MVP
+
+1. **Lead with architecture**: "Works with existing storage" is differentiator
+2. **Emphasize consequences**: Missed deadlines, lost deals, personal liability
+3. **Focus on organization + tracking**: Not workflow automation (yet)
+4. **Promise $5K-20K savings**: Not just hourly rate comparisons
+5. **Multi-entity is core**: All pain points amplify with multiple entities
+
+### What This Means for Landing Pages
+
+**Strong Headlines:**
+- "Stop Losing Documents Across Your [Properties/Brands/Locations]"
+- "Never Miss Another [Deadline Type] Again"
+- "Organize All Your Entities. Protect Your Business."
+
+**Key Benefits to Highlight:**
+1. Connect to existing storage (no migration)
+2. Automated deadline tracking
+3. Search across all entities
+4. Organized by entity + document type
+
+**Social Proof Language:**
+- "Save $5K-20K in legal reconstruction fees"
+- "Never miss a deadline that costs you thousands"
+- "From chaos to organized in weeks"
+
+---
+
+**Document Status:** Updated February 7, 2026 (MVP-focused refinements)  
 **Next Steps:** Apply to landing pages, ad copy, and email sequences  
-**Feedback Needed:** Tone, pain point priority, messaging resonance
+**Feedback Needed:** Does the MVP messaging feel honest and deliverable?
