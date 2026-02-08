@@ -1,5 +1,10 @@
 # Validation Website Plan - Overview
 
+> **Related Resources:**
+> - [Research](../../biz/doc/research/3%20validation/) [Framework](../../biz/llm/research/3%20validation/) - Validation methodology and channels
+> - [Validation Stages](../../biz/llm/research/3%20validation/methodology/) - Detailed guides for each stage
+> - [Channel Tactics](../../biz/llm/research/3%20validation/channels/) - Facebook, Google, LinkedIn, Organic
+
 ## Executive Summary
 
 This document outlines the validation strategy for our corporate document management SaaS product targeting SMBs. The approach is based on Giovanni Brees' proven validation framework (from MeetOscar case study) and focuses on rapid, low-cost validation through targeted landing pages, waitlist signups, and prepayment validation.
