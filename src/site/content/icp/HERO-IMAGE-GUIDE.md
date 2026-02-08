@@ -56,6 +56,8 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Pexels: Search "apartment building", "residential property"
 - Custom: Commission aerial shots of diverse property types
 
+https://unsplash.com/photos/aerial-photography-houses-zBHU08hdzhY
+
 ---
 
 ## 2. E-commerce Multi-Brand Operators (`/ecommerce-brands`)
@@ -94,6 +96,8 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Unsplash: Search "ecommerce", "product packaging", "online business"
 - Pexels: Search "shopify", "amazon fba", "brand strategy"
 - Custom: Photograph multiple product packages arranged artfully
+
+https://unsplash.com/photos/a-purple-background-with-a-basket-of-items-and-a-target-mlpsHpUUCHY
 
 ---
 
@@ -134,6 +138,8 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Pexels: Search "restaurant manager", "multi-unit"
 - Custom: Photograph actual franchise locations (with permission)
 
+https://unsplash.com/photos/a-restaurant-with-tables-and-stools-in-front-of-a-large-window-cTnvEWVg0UY
+
 ---
 
 ## 4. Second-Generation Family Business (`/family-business`)
@@ -173,6 +179,8 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Pexels: Search "business succession", "generations", "heritage"
 - Custom: Photograph actual family business (with permission)
 
+https://unsplash.com/photos/people-sitting-on-chair-in-front-of-table-while-holding-pens-during-daytime-KdeqA3aTnBY
+
 ---
 
 ## 5. B2B SaaS Startups (`/saas-startups`)
@@ -211,6 +219,8 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Unsplash: Search "startup office", "tech founder", "board meeting"
 - Pexels: Search "saas", "entrepreneur", "startup workspace"
 - Custom: Photograph modern co-working space or startup office
+
+https://unsplash.com/photos/black-office-rolling-chairs-and-table-UgYT5nkXdK4
 
 ---
 
