@@ -40,41 +40,43 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="px-4 py-20 bg-gradient-to-b from-zinc-50 to-white dark:from-zinc-900 dark:to-black">
-        <div className="container mx-auto max-w-5xl">
-          {/* Hero Image */}
-          {page.heroImage && (
-            <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
-              <Image
-                src={page.heroImage}
-                alt={page.title}
-                width={1920}
-                height={1080}
-                className="w-full h-auto object-cover"
-                priority
-              />
-            </div>
-          )}
-          
+      <section className="relative px-4 py-32 overflow-hidden">
+        {/* Background Image */}
+        {page.heroImage && (
+          <>
+            <Image
+              src={page.heroImage}
+              alt={page.title}
+              fill
+              className="object-cover"
+              priority
+            />
+            {/* Gradient Overlay for text readability */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
+          </>
+        )}
+        
+        {/* Content */}
+        <div className="container mx-auto max-w-5xl relative z-10">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl mb-6">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl mb-6 text-white drop-shadow-lg">
               {page.title}
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md">
               {page.subtitle}
             </p>
           </div>
 
           {/* CTA */}
           <div className="flex justify-center mb-16">
-            <Button size="lg" className="text-lg px-8 py-6" asChild>
+            <Button size="lg" className="text-lg px-8 py-6 shadow-xl" asChild>
               <a href={page.ctaUrl}>{page.ctaText}</a>
             </Button>
           </div>
 
           {/* Pain Points */}
           {page.painPoints.length > 0 && (
-            <Card className="max-w-3xl mx-auto">
+            <Card className="max-w-3xl mx-auto bg-white/95 dark:bg-zinc-900/95 backdrop-blur-sm">
               <CardContent className="pt-6">
                 <h2 className="text-2xl font-semibold mb-6 text-center">
                   Sound familiar?
