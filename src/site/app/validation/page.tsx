@@ -41,7 +41,7 @@ export default function Home() {
         <div className="w-full max-w-3xl">
           <div className="mb-12 text-center">
             <h1 className="text-4xl font-bold tracking-tight text-black dark:text-zinc-50 mb-4">
-              Prise Validation
+              CompanyName Validation
             </h1>
             <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-2">
               Corporate Document Management for Growing Businesses
