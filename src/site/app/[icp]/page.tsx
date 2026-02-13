@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ icp: stri
   }
 
   return {
-    title: `${page.title} | CompanyName`,
+    title: `${page.title} | Manuscript`,
     description: page.subtitle,
   };
 }
@@ -128,7 +128,7 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
             Ready to get organized?
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Join the waitlist and be among the first to experience CompanyName.
+            Join the waitlist and be among the first to experience Manuscript.
           </p>
           <Button 
             size="lg" 

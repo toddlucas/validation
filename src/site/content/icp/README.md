@@ -30,7 +30,7 @@ heroImage: "/images/hero-real-estate.jpg" # Optional
 1. **Keep it focused**: Each page should speak directly to one ICP
 2. **Use their language**: Match the terminology they use
 3. **Highlight pain points**: Lead with problems they recognize
-4. **Show the solution**: Explain how CompanyName solves their specific problems
+4. **Show the solution**: Explain how Manuscript solves their specific problems
 5. **Include social proof**: Mention waitlist numbers or testimonials
 6. **Clear CTA**: Make it obvious how to sign up
 

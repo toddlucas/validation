@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CompanyName - Coming Soon",
+  title: "Manuscript - Coming Soon",
   description: "A select group of business owners are about to discover something different. Join the waitlist for limited early access.",
 };
 

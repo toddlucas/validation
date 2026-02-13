@@ -36,7 +36,7 @@ export default function Home() {
           {/* Logo/Brand */}
           <div className="space-y-4">
             <h1 className="text-7xl font-bold tracking-tight bg-gradient-to-b from-white to-zinc-400 bg-clip-text text-transparent">
-              CompanyName
+              Manuscript
             </h1>
             <div className="h-px w-24 mx-auto bg-gradient-to-r from-transparent via-zinc-500 to-transparent" />
           </div>

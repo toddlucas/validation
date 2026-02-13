@@ -16,7 +16,7 @@ A purpose-built system that helps small businesses (5-50 employees) organize and
 - **Document relationships** - Understands how documents connect (amendments to bylaws, resolutions to contracts)
 
 **Storage architecture:**
-Files remain in your existing systems (SharePoint, Google Drive, Dropbox, Box, etc.). CompanyName doesn't replace your file storage—it adds a governance and compliance layer on top, providing structure, tracking, and workflows while your documents stay where they are.
+Files remain in your existing systems (SharePoint, Google Drive, Dropbox, Box, etc.). Manuscript doesn't replace your file storage—it adds a governance and compliance layer on top, providing structure, tracking, and workflows while your documents stay where they are.
 
 **The value proposition:**
 Prevents the expensive chaos that happens when SMBs manage corporate documents ad-hoc (Google Drive folders, filing cabinets, spreadsheets). Saves them from:
@@ -46,7 +46,7 @@ Great question. Here are features I'd consider, organized by priority:
 - Read/write access to manage documents in place
 - Sync metadata and track changes
 - Files stay in customer's existing systems (security, compliance, backup)
-- CompanyName adds governance layer without becoming another data silo
+- Manuscript adds governance layer without becoming another data silo
 
 **File versioning & audit trails** ⭐ **CORE FEATURE**
 - Complete version history for every document
