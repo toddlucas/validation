@@ -4,34 +4,40 @@ import Link from "next/link";
 export default function Home() {
   const icpPages = [
     {
-      title: "Real Estate Investors",
-      description: "2-5 properties, multiple LLCs",
-      href: "/real-estate-investors",
+      title: "Government Contractors",
+      description: "RFP response teams, 10-50+ documents",
+      href: "/government-contractors",
       color: "bg-blue-600 hover:bg-blue-700"
     },
     {
-      title: "E-commerce Brands",
-      description: "Multi-brand operators",
-      href: "/ecommerce-brands",
+      title: "Grant Writers",
+      description: "Nonprofit development directors",
+      href: "/grant-writers",
+      color: "bg-green-700 hover:bg-green-800"
+    },
+    {
+      title: "Consulting Firms",
+      description: "Proposal and deliverable teams",
+      href: "/consulting-firms",
       color: "bg-purple-600 hover:bg-purple-700"
     },
     {
-      title: "Franchise Operators",
-      description: "QSR, 3-10 locations",
-      href: "/franchise-operators",
+      title: "Academic Researchers",
+      description: "PhD candidates, dissertations",
+      href: "/academic-researchers",
       color: "bg-red-600 hover:bg-red-700"
     },
     {
-      title: "Family Business",
-      description: "Second-generation leaders",
-      href: "/family-business",
-      color: "bg-amber-700 hover:bg-amber-800"
+      title: "Franchise Operators",
+      description: "Multi-unit QSR, 3-20 locations",
+      href: "/franchise-operators-tier1",
+      color: "bg-orange-600 hover:bg-orange-700"
     },
     {
-      title: "SaaS Startups",
-      description: "Post-seed to Series A",
-      href: "/saas-startups",
-      color: "bg-indigo-600 hover:bg-indigo-700"
+      title: "Legal Firms",
+      description: "Complex litigation teams",
+      href: "/legal-firms",
+      color: "bg-cyan-600 hover:bg-cyan-700"
     }
   ];
 
@@ -41,10 +47,10 @@ export default function Home() {
         <div className="w-full max-w-3xl">
           <div className="mb-12 text-center">
             <h1 className="text-4xl font-bold tracking-tight text-black dark:text-zinc-50 mb-4">
-              Manuscript Validation
+              Docuscribe Validation
             </h1>
             <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-2">
-              Corporate Document Management for Growing Businesses
+              AI Document Management for Multi-Document Intelligence
             </p>
             <p className="text-base text-zinc-500 dark:text-zinc-500">
               Choose your industry to learn more
@@ -65,9 +71,9 @@ export default function Home() {
           </div>
 
           <div className="text-center text-sm text-zinc-500 dark:text-zinc-600">
-            <p>Phase 1 Validation Landing Pages</p>
-            <p className="mt-2">Micro-Test: Real Estate + E-commerce ($100)</p>
-            <p>Validation: All 5 pages ($150-200)</p>
+            <p>Tier 1 ICP Validation Landing Pages</p>
+            <p className="mt-2">Phase 1: Test all 6 ICPs simultaneously ($3,000)</p>
+            <p>Phase 2: Focus on top 3 performers ($3,000)</p>
           </div>
         </div>
       </main>
