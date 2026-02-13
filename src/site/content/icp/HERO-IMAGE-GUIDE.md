@@ -61,6 +61,9 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Pexels: Search "proposal team", "business documents", "contract review"
 - Custom: Photograph proposal team (with permission)
 
+https://unsplash.com/photos/man-wearing-gray-polo-shirt-beside-dry-erase-board-3V8xo5Gbusk
+https://www.pexels.com/photo/group-of-people-on-conference-room-1181396/
+
 ---
 
 ## 2. Grant Writers (`/grant-writers`)
@@ -99,6 +102,8 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Unsplash: Search "nonprofit office", "grant writer", "research papers"
 - Pexels: Search "nonprofit work", "community impact", "research"
 - Custom: Photograph nonprofit office (with permission)
+
+https://unsplash.com/photos/person-holding-pencil-near-laptop-computer-5fNmWej4tAA
 
 ---
 
@@ -139,6 +144,8 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Pexels: Search "consultant", "business proposal", "strategy session"
 - Custom: Photograph consulting office (with permission)
 
+https://unsplash.com/photos/people-sitting-on-chair-in-front-of-computer-YI_9SivVt_s
+
 ---
 
 ## 4. Academic Researchers (`/academic-researchers`)
@@ -178,45 +185,13 @@ This document provides specific guidance for creating or sourcing hero images fo
 - Pexels: Search "university student", "researcher", "academic office"
 - Custom: Photograph university office (with permission)
 
+https://unsplash.com/photos/open-book-lot-Oaqk7qqNh_c
+
 ---
 
-## 5. Franchise Operators (`/franchise-operators-tier1`)
+## 5. Franchise Operators (`/franchise-operators`)
 
-**Hero Image:** `/images/hero-franchise-operators-tier1.jpg`
-
-### Concept Options:
-
-**Option A: Property Portfolio Overview (Recommended)**
-- Aerial or elevated view showing 3-5 residential properties
-- Mix of single-family homes and small multi-family buildings
-- Clean, well-maintained properties (aspirational)
-- Subtle overlay showing property pins/markers (like a portfolio map)
-- Conveys: "Multiple properties, organized management"
-
-**Option B: Keys & Documents**
-- Multiple sets of keys labeled with property addresses
-- Organized folder system or binder with property documents
-- Clean desk setup with laptop showing property management dashboard
-- Conveys: "Organization and control"
-
-**Option C: Property Manager at Work**
-- Person (30s-50s) reviewing documents with property in background
-- Professional but not corporate (polo shirt, not suit)
-- Tablet or laptop showing organized property records
-- Conveys: "Professional property management"
-
-### Color Palette:
-- Primary: Deep blue (#1e3a8a) - trust, stability
-- Accent: Warm gold (#f59e0b) - real estate, investment
-- Background: Light gray or soft white
-
-### Where to Source:
-- Unsplash: Search "rental property", "real estate portfolio", "property management"
-- Pexels: Search "apartment building", "residential property"
-- Custom: Commission aerial shots of diverse property types
-
-https://unsplash.com/photos/aerial-photography-houses-zBHU08hdzhY
-
+**Hero Image:** `/images/hero-franchise-operators.jpg`
 
 ### Concept Options:
 
@@ -348,7 +323,7 @@ Add subtle pattern overlay for texture.
    - `hero-grant-writers.jpg`
    - `hero-consulting-firms.jpg`
    - `hero-academic-researchers.jpg`
-   - `hero-franchise-operators-tier1.jpg`
+   - `hero-franchise-operators.jpg`
    - `hero-legal-firms.jpg`
 3. **Optimize** images to <200KB using TinyPNG
 4. **Test** on actual landing pages for text overlay readability
@@ -363,7 +338,7 @@ Add subtle pattern overlay for texture.
 | Grant Writers | `hero-grant-writers.jpg` | Green (#047857) | Research synthesis, mission-driven |
 | Consulting Firms | `hero-consulting-firms.jpg` | Purple (#8b5cf6) | Strategic proposals, case studies |
 | Academic Researchers | `hero-academic-researchers.jpg` | Red (#dc2626) | Dissertation chapters, research |
-| Franchise Operators | `hero-franchise-operators-tier1.jpg` | Red/Orange (#dc2626) | Multi-location operations |
+| Franchise Operators | `hero-franchise-operators.jpg` | Red/Orange (#dc2626) | Multi-location operations |
 | Legal Firms | `hero-legal-firms.jpg` | Cyan (#0891b2) | Case coordination, exhibits |
 
 ---

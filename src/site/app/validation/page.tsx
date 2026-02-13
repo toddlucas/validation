@@ -30,7 +30,7 @@ export default function Home() {
     {
       title: "Franchise Operators",
       description: "Multi-unit QSR, 3-20 locations",
-      href: "/franchise-operators-tier1",
+      href: "/franchise-operators",
       color: "bg-orange-600 hover:bg-orange-700"
     },
     {
