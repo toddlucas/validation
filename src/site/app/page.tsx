@@ -36,19 +36,19 @@ export default function Home() {
           {/* Logo/Brand */}
           <div className="space-y-4">
             <h1 className="text-7xl font-bold tracking-tight bg-gradient-to-b from-white to-zinc-400 bg-clip-text text-transparent">
-              Manuscript
+              Sorcery
             </h1>
             <div className="h-px w-24 mx-auto bg-gradient-to-r from-transparent via-zinc-500 to-transparent" />
           </div>
 
           {/* Main Headline */}
           <h2 className="text-5xl sm:text-6xl font-bold tracking-tight leading-tight">
-            You&apos;re early.
+            Documents that understand each other.
           </h2>
 
           {/* Subheadline */}
           <p className="text-xl sm:text-2xl text-zinc-400 leading-relaxed max-w-xl mx-auto">
-            A select group of business owners are about to discover something different.
+            A new workspace for multi-document projects. Research, write, and maintain document sets with intelligence that spans your entire project.
           </p>
 
           {/* Email Capture */}
@@ -72,14 +72,14 @@ export default function Home() {
                 </Button>
               </div>
               <p className="text-sm text-zinc-600">
-                Limited early access.
+                Request early access.
               </p>
             </form>
           ) : (
             <div className="max-w-md mx-auto space-y-4">
               <div className="p-6 bg-zinc-900/50 border border-zinc-800 rounded-lg">
                 <p className="text-lg text-zinc-300">
-                  Welcome to the waitlist.
+                  You&apos;re on the list.
                 </p>
                 <p className="text-sm text-zinc-500 mt-2">
                   We&apos;ll be in touch soon.
