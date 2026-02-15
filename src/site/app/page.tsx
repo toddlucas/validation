@@ -8,12 +8,42 @@ import { Input } from "@/components/ui/input";
 export default function Home() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Integrate with your waitlist service
-    console.log('Email submitted:', email);
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setError(null);
+
+    try {
+      const response = await fetch('https://api.freewaitlists.com/waitlists/cmln16h2200df01p2cgku1fo1', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          meta: {
+            source: 'validation-landing-page',
+            timestamp: new Date().toISOString()
+          }
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to join waitlist');
+      }
+
+      const data = await response.json();
+      console.log('Waitlist response:', data);
+      setSubmitted(true);
+    } catch (err) {
+      console.error('Error submitting to waitlist:', err);
+      setError('Something went wrong. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -61,19 +91,28 @@ export default function Home() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="flex-1 bg-zinc-900/50 border-zinc-800 text-white placeholder:text-zinc-600 focus:border-zinc-600 h-12 px-4"
+                  disabled={isSubmitting}
+                  className="flex-1 bg-zinc-900/50 border-zinc-800 text-white placeholder:text-zinc-600 focus:border-zinc-600 h-12 px-4 disabled:opacity-50 disabled:cursor-not-allowed"
                 />
                 <Button 
                   type="submit"
                   size="lg"
-                  className="bg-white text-black hover:bg-zinc-200 font-medium h-12 px-8"
+                  disabled={isSubmitting}
+                  className="bg-white text-black hover:bg-zinc-200 font-medium h-12 px-8 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Join Waitlist
+                  {isSubmitting ? 'Joining...' : 'Join Waitlist'}
                 </Button>
               </div>
-              <p className="text-sm text-zinc-600">
-                Request early access.
-              </p>
+              {error && (
+                <p className="text-sm text-red-400">
+                  {error}
+                </p>
+              )}
+              {!error && (
+                <p className="text-sm text-zinc-600">
+                  Request early access.
+                </p>
+              )}
             </form>
           ) : (
             <div className="max-w-md mx-auto space-y-4">
