@@ -1,50 +1,9 @@
 'use client';
 
-import { useState } from 'react';
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { WaitlistButton } from "@/components/WaitlistButton";
 
 export default function Home() {
-  const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setError(null);
-
-    try {
-      const response = await fetch('https://api.freewaitlists.com/waitlists/cmln16h2200df01p2cgku1fo1', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: email,
-          meta: {
-            source: 'validation-landing-page',
-            timestamp: new Date().toISOString()
-          }
-        })
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to join waitlist');
-      }
-
-      const data = await response.json();
-      console.log('Waitlist response:', data);
-      setSubmitted(true);
-    } catch (err) {
-      console.error('Error submitting to waitlist:', err);
-      setError('Something went wrong. Please try again.');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
 
   return (
     <div className="min-h-screen bg-black text-white relative overflow-hidden">
@@ -81,51 +40,20 @@ export default function Home() {
             A new workspace for multi-document projects. Research, write, and maintain document sets with intelligence that spans your entire project.
           </p>
 
-          {/* Email Capture */}
-          {!submitted ? (
-            <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4">
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Input
-                  type="email"
-                  placeholder="Enter your email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  disabled={isSubmitting}
-                  className="flex-1 bg-zinc-900/50 border-zinc-800 text-white placeholder:text-zinc-600 focus:border-zinc-600 h-12 px-4 disabled:opacity-50 disabled:cursor-not-allowed"
-                />
-                <Button 
-                  type="submit"
-                  size="lg"
-                  disabled={isSubmitting}
-                  className="bg-white text-black hover:bg-zinc-200 font-medium h-12 px-8 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {isSubmitting ? 'Joining...' : 'Join Waitlist'}
-                </Button>
-              </div>
-              {error && (
-                <p className="text-sm text-red-400">
-                  {error}
-                </p>
-              )}
-              {!error && (
-                <p className="text-sm text-zinc-600">
-                  Request early access.
-                </p>
-              )}
-            </form>
-          ) : (
-            <div className="max-w-md mx-auto space-y-4">
-              <div className="p-6 bg-zinc-900/50 border border-zinc-800 rounded-lg">
-                <p className="text-lg text-zinc-300">
-                  You&apos;re on the list.
-                </p>
-                <p className="text-sm text-zinc-500 mt-2">
-                  We&apos;ll be in touch soon.
-                </p>
-              </div>
-            </div>
-          )}
+          {/* CTA Button */}
+          <div className="flex justify-center">
+            <WaitlistButton
+              size="lg"
+              className="bg-white text-black hover:bg-zinc-200 font-medium h-12 px-8"
+              source="home-landing-page"
+            >
+              Join Waitlist
+            </WaitlistButton>
+          </div>
+          
+          <p className="text-sm text-zinc-600">
+            Request early access.
+          </p>
 
           {/* Footer tagline */}
           <div className="pt-12">

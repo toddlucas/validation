@@ -1,11 +1,11 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { getAllICPs, getICPBySlug } from '@/lib/icp';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { ThemeToggle } from '@/components/ThemeToggle';
+import { WaitlistButton } from '@/components/WaitlistButton';
 
 export async function generateStaticParams() {
   const icps = getAllICPs();
@@ -75,14 +75,14 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
 
           {/* CTA */}
           <div className="flex justify-center mb-16">
-            <Button 
-              size="lg" 
-              className="text-lg px-8 py-6 shadow-xl" 
-              style={page.accentColor ? { backgroundColor: page.accentColor } : undefined}
-              asChild
+            <WaitlistButton
+              size="lg"
+              className="text-lg px-8 py-6 shadow-xl"
+              accentColor={page.accentColor}
+              source={`icp-${page.slug}`}
             >
-              <a href={page.ctaUrl}>{page.ctaText}</a>
-            </Button>
+              {page.ctaText}
+            </WaitlistButton>
           </div>
 
           {/* Pain Points */}
@@ -130,14 +130,14 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
           <p className="text-lg text-muted-foreground mb-8">
             Join the waitlist and be among the first to experience Sorcery.
           </p>
-          <Button 
-            size="lg" 
-            className="text-lg px-8 py-6" 
-            style={page.accentColor ? { backgroundColor: page.accentColor } : undefined}
-            asChild
+          <WaitlistButton
+            size="lg"
+            className="text-lg px-8 py-6"
+            accentColor={page.accentColor}
+            source={`icp-${page.slug}-bottom`}
           >
-            <a href={page.ctaUrl}>{page.ctaText}</a>
-          </Button>
+            {page.ctaText}
+          </WaitlistButton>
         </div>
       </section>
     </div>
