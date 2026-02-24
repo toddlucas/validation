@@ -1,5 +1,6 @@
 import type { MDXComponents } from 'mdx/types';
 import React from 'react';
+import { ClickableImage } from '@/components/ClickableImage';
 
 export function Callout({ children }: { children: React.ReactNode }) {
   return (
@@ -13,5 +14,6 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     ...components,
     Callout,
+    ClickableImage,
   };
 }
