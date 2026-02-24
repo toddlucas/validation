@@ -4,6 +4,7 @@ import { CheckCircle2 } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { getAllICPs, getICPBySlug } from '@/lib/icp';
 import { MDXRemote } from 'next-mdx-remote/rsc';
+import { Callout } from '@/mdx-components';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { WaitlistButton } from '@/components/WaitlistButton';
 
@@ -116,7 +117,7 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
       <section className="px-4 py-20">
         <article className="container mx-auto max-w-4xl">
           <div className="prose prose-slate dark:prose-invert max-w-none">
-            <MDXRemote source={page.content} />
+            <MDXRemote source={page.content} components={{ Callout }} />
           </div>
         </article>
       </section>
