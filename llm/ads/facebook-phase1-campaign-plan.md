@@ -37,66 +37,54 @@ For Phase 1 fake-door testing, **single image ads** are the right call:
 
 ## Campaign Structure
 
+> **Andromeda note (updated Feb 2026):** Meta's Andromeda ad retrieval engine (rolled out late 2024) changed how ads are selected and delivered. It operates at individual-user precision rather than group-level audience segments. The practical consequence: splitting a $500 budget across 3 ad sets by audience type fragments learning and starves the algorithm — you'll accumulate ~2–3 conversions per ad set before spending out, and Andromeda needs 50+ conversions per ad set to exit the learning phase and perform reliably. The original 3-ad-set structure below has been replaced with a single Advantage+ consolidated ad set per campaign.
+
 ```
 Campaign: Sorcery — Grant Writers [Phase 1]
   Objective: Leads (optimize for landing page signups via Meta Pixel)
-  Budget: $500 total / ~$166/ad set
-  ├── Ad Set 1: Job Title Targeting
-  │   ├── Ad A: Pain Hook
-  │   ├── Ad B: Outcome Hook
-  │   └── Ad C: Example/Specificity Hook
-  ├── Ad Set 2: Interest/Behavior Targeting
-  │   ├── Ad A: Pain Hook
-  │   ├── Ad B: Outcome Hook
-  │   └── Ad C: Example/Specificity Hook
-  └── Ad Set 3: Broad + Advantage+ (Meta's AI targeting)
-      ├── Ad A: Pain Hook
-      ├── Ad B: Outcome Hook
-      └── Ad C: Example/Specificity Hook
+  Budget: $500 total (full budget to one ad set)
+  Campaign Budget Optimization: ON
+  └── Ad Set 1: Advantage+ Audience (broad, US only)
+      ├── Ad A: Pain Hook — Image Option 1 (overwhelm visual)
+      ├── Ad B: Outcome Hook — Image Option 2 (before/after split)
+      ├── Ad C: Specificity Hook — Image Option 3 (instruction card, static)
+      └── Ad D: Specificity Hook — Image Option 3 (instruction card, Reels video)
 
 Campaign: Sorcery — Franchise Operators [Phase 1]
   Objective: Leads (optimize for landing page signups via Meta Pixel)
-  Budget: $500 total / ~$166/ad set
-  ├── Ad Set 1: Job Title Targeting
-  │   ├── Ad A: Pain Hook
-  │   ├── Ad B: Outcome Hook
-  │   └── Ad C: Example/Specificity Hook
-  ├── Ad Set 2: Interest/Behavior Targeting
-  │   ├── Ad A: Pain Hook
-  │   ├── Ad B: Outcome Hook
-  │   └── Ad C: Example/Specificity Hook
-  └── Ad Set 3: Broad + Advantage+ (Meta's AI targeting)
-      ├── Ad A: Pain Hook
-      ├── Ad B: Outcome Hook
-      └── Ad C: Example/Specificity Hook
+  Budget: $500 total (full budget to one ad set)
+  Campaign Budget Optimization: ON
+  └── Ad Set 1: Advantage+ Audience (broad, US only)
+      ├── Ad A: Pain Hook — Image Option 1 (map/locations visual)
+      ├── Ad B: Stakes Hook — Image Option 2 (overwhelmed operator)
+      ├── Ad C: Specificity Hook — Image Option 3 (instruction card, static)
+      └── Ad D: Specificity Hook — Image Option 3 (instruction card, Reels video)
 ```
 
-**Note on Advantage+ Audience:** For Phase 1, include one "broad" ad set using Meta's Advantage+ audience targeting with no demographic restrictions beyond country. Meta's algorithm often outperforms manual targeting on small budgets when given creative room to find its own audience. Let it run alongside your manual ad sets.
+**Why one ad set instead of three:**
+Under Andromeda, your creative is your targeting. The system reads each ad's message, tone, visuals, and copy angle — and uses that to find the right person, not your audience parameters. Running separate job title and interest ad sets is counterproductive: it fragments the learning budget, prevents the algorithm from finding users it would have discovered on its own, and splits your conversion signal across too many pools. One broad Advantage+ ad set with genuinely diverse creatives is the correct structure.
 
-**Pixel setup:** Before launch, confirm your Meta Pixel is firing on the waitlist form submission as a `Lead` event (not just a page view). This is what the campaign optimizes toward.
+**Why 4 ads instead of 3:**
+Andromeda rewards format diversity, not just copy diversity. Adding a Reels/vertical video version of the instruction card creative (Ad D) gives you a different format at near-zero marginal production cost — a screen recording or text-on-screen loop is enough — and gives Andromeda a fourth creative to match against different users and placements.
+
+**Optional — audience seed signal:** If you have an existing email list or website visitor list, upload it as a Custom Audience seed *inside* the Advantage+ ad set. This gives Andromeda a starting signal without restricting delivery.
+
+**Pixel setup:** Before launch, confirm your Meta Pixel is firing on the waitlist form submission as a `Lead` event (not just a page view). This is what the campaign optimizes toward. Server-side Conversions API (CAPI) setup is worth doing if possible — Andromeda learns faster with higher-quality, deduplicated signals.
 
 ---
 
 ## ICP 1: Grant Writers
 
-### Audiences
+### Audience Setup
 
-**Ad Set 1 — Job Title Targeting**
-- Job titles: "Development Director", "Grants Manager", "Grant Writer", "Fundraising Director", "Grant Administrator", "Development Associate", "Program Development Manager"
-- Narrow by: Employer industry = Nonprofit / Education
+**Single ad set — Advantage+ Audience (broad)**
+- Advantage+ Audience: ON
 - Location: United States
-- Age: 25–55
+- Age: No restriction (let Andromeda optimize)
+- Optional seed: Upload existing email list or website visitors as a Custom Audience to give the algorithm a starting signal. Do not use this as a restriction — use it as a seed only.
+- Exclude: Anyone who already converted (add your waitlist signups list as an exclusion once you have 100+)
 
-**Ad Set 2 — Interest/Behavior Targeting**
-- Interests: "Grant writing", "Nonprofit management", "Foundation grants", "Fundraising", "Philanthropy", "Chronicle of Philanthropy", "Grants.gov"
-- Behaviors: Small business owners (many nonprofits register this way)
-- Exclude: People who already visited your landing page (retargeting is a separate campaign)
-
-**Ad Set 3 — Advantage+ Broad**
-- Advantage+ Audience enabled
-- Location: United States
-- Seed: Upload any existing email list or website visitors as a signal
-- Let Meta find the audience
+The job title and interest parameters listed in the original draft (Development Director, Grants Manager, grant writing, nonprofit management, etc.) are still valid as *reference* for evaluating whether your signups match the ICP — but don't use them as ad targeting constraints. Andromeda will find these people through the creative signal the ads themselves provide.
 
 ---
 
@@ -176,23 +164,16 @@ Below it: a Word document with tracked changes appearing. Background is muted gr
 
 ## ICP 2: Franchise Operators
 
-### Audiences
+### Audience Setup
 
-**Ad Set 1 — Job Title Targeting**
-- Job titles: "Franchise Owner", "Multi-Unit Franchisee", "Franchise Operations Manager", "Area Developer", "Area Director", "District Manager", "Franchise Director"
-- Employer industry: Restaurants / Retail / Service Industry
+**Single ad set — Advantage+ Audience (broad)**
+- Advantage+ Audience: ON
 - Location: United States
-- Age: 30–60
+- Age: No restriction (let Andromeda optimize)
+- Optional seed: Upload existing email list or website visitors as a Custom Audience to give the algorithm a starting signal. Do not use this as a restriction — use it as a seed only.
+- Exclude: Anyone who already converted once you have a list to exclude
 
-**Ad Set 2 — Interest/Behavior Targeting**
-- Interests: "Franchising", "Franchise business", "Entrepreneur", "Franchise Times", "QSR Magazine", "Multi-unit franchise"
-- Behaviors: Small business owners, Business page admins with 10+ employees
-- Pages liked: Major franchise brand pages (e.g., Subway, Anytime Fitness, The UPS Store — this signals franchise involvement)
-
-**Ad Set 3 — Advantage+ Broad**
-- Advantage+ Audience enabled
-- Location: United States
-- Seed: Upload any existing list or website visitors as a signal
+The job title and interest parameters in the original draft (Franchise Owner, Multi-Unit Franchisee, franchising interests, etc.) are still valid as *reference* for qualifying inbound signups — but don't use them as targeting constraints. The franchise-specific creative language in the ads ("12 location manuals," "franchisor compliance audit") acts as the targeting signal itself.
 
 ---
 
@@ -272,15 +253,17 @@ This is visually minimal and works well in feed where text-forward creative stan
 
 ## Budget Allocation
 
-| Campaign | Budget | Daily (30 days) | Per Ad Set |
-|---|---|---|---|
-| Grant Writers | $500 | ~$17/day | ~$166 |
-| Franchise Operators | $500 | ~$17/day | ~$166 |
-| **Total** | **$1,000** | **~$34/day** | |
+| Campaign | Budget | Daily (30 days) | Ad Sets | Creatives |
+|---|---|---|---|---|
+| Grant Writers | $500 | ~$17/day | 1 (Advantage+) | 4 |
+| Franchise Operators | $500 | ~$17/day | 1 (Advantage+) | 4 |
+| **Total** | **$1,000** | **~$34/day** | | |
 
-**Campaign duration:** Run for a minimum of 7 days before making creative decisions — Meta's algorithm needs time to exit the learning phase. Aim for 50 optimization events (signups) per ad set before drawing conclusions. Given your budget, you will likely not reach 50 events per ad set in Phase 1 — treat this as directional signal, not statistical certainty.
+**Campaign duration:** Run for a minimum of 7–10 days before making creative decisions. Andromeda needs time to exit the learning phase — ideally 50 conversion events per ad set, which you likely won't reach at $500 total per ICP. Treat early results as directional signal, not statistical certainty. Do not make structural changes (pausing ad sets, changing audiences) during the first 7 days — this resets learning.
 
-**When to pause underperformers:** After $50 spend per ad, if CTR (link click-through rate) is below 0.8% or CPC is above $4.00, pause that creative and shift budget to the top performer.
+**When to pause underperforming creatives:** After $75–100 spend per individual ad (not per campaign), if CTR is below 0.8% or CPC above $4.00, pause that creative. Shift the remaining budget to the top performer. Don't touch the ad set targeting — only swap creatives.
+
+**Learning phase note:** With CBO on, Meta allocates budget dynamically. Let it run. The algorithm will direct spend toward whichever creative is converting best. Resist the urge to manually redistribute budget across creatives before day 7.
 
 ---
 
@@ -300,9 +283,13 @@ This is visually minimal and works well in feed where text-forward creative stan
 ## Pre-Launch Checklist
 
 - [ ] Meta Pixel installed on landing page and firing `Lead` event on waitlist form submission
+- [ ] Conversions API (CAPI) configured if possible — server-side tracking improves signal quality for Andromeda's learning phase; deduplicated events are higher quality than browser-only pixel data
 - [ ] UTM parameters on all ad URLs: `?utm_source=facebook&utm_medium=paid&utm_campaign=phase1-[icp]&utm_content=[ad-variant]`
 - [ ] Separate landing page variants per ICP (or at minimum, confirm the existing page works for both audiences)
 - [ ] Business Manager account with ad account, pixel, and page connected
-- [ ] Ad images sized: 1080×1080 (Feed) and optionally 1080×1920 (Reels)
+- [ ] Campaign Budget Optimization (CBO) enabled at campaign level
+- [ ] Advantage+ Audience enabled on the ad set (not "Original Audience" / manual targeting)
+- [ ] All 4 creatives loaded into the single ad set before launch — do not add creatives after the campaign is live if avoidable (resets learning)
+- [ ] Ad images sized: 1080×1080 (Feed) and 1080×1920 (Reels/vertical for Ad D video)
 - [ ] Confirm ad copy clears Facebook's 20% text rule (check image text ratio in Ads Manager before publishing)
-- [ ] Retargeting audience created: anyone who visited the landing page but did not convert (for future use)
+- [ ] Retargeting audience created: anyone who visited the landing page but did not convert (for future use — separate retargeting campaign, not this one)
