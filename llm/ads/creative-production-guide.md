@@ -48,6 +48,8 @@ Do this for each screenshot you plan to use. You'll end up with 2–3 polished m
 
 > **Screely.com** is a faster alternative if you just want a browser frame with a clean background — paste your screenshot URL or upload it, and it wraps it instantly. Better for quick one-offs.
 
+http://unsplash.com/photos/black-and-gray-laptop-computer-p0UwQ-Wd8TM
+
 ---
 
 ## Step 2: Ad A — Pain Hook (Stock Photo + Headline)
@@ -70,6 +72,9 @@ This ad uses a photo of an overwhelmed professional, not your product. The produ
    - Franchise Operators: **"Update 12 location manuals at once"**
 6. Optionally add a small logo or "trysorcery.com" in the bottom corner
 7. Export: Download → PNG → 1080×1080
+
+https://unsplash.com/photos/a-statue-of-a-person-sitting-on-a-chair-in-front-of-a-desk-63hYwd9J0X0
+https://unsplash.com/photos/a-woman-sitting-at-a-table-with-a-laptop-in-front-of-her-s24ssp6QyFI
 
 ---
 
