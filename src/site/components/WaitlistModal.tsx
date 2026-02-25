@@ -53,6 +53,29 @@ export function WaitlistModal({ open, onOpenChange, accentColor, source = 'icp-l
 
       const data = await response.json();
       console.log('Waitlist response:', data);
+
+      const eventId = crypto.randomUUID();
+
+      if (typeof window !== 'undefined' && typeof (window as any).fbq === 'function') {
+        (window as any).fbq('track', 'Lead', {}, { eventID: eventId });
+      }
+      if (typeof window !== 'undefined' && typeof (window as any).gtag === 'function') {
+        (window as any).gtag('event', 'generate_lead', {
+          event_category: 'waitlist',
+          event_label: source,
+        });
+      }
+
+      fetch('/api/track-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          eventId,
+          eventSourceUrl: window.location.href,
+        }),
+      }).catch(() => {});
+
       setSubmitted(true);
       
       // Reset form after 3 seconds and close modal
