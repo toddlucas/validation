@@ -61,6 +61,11 @@ export default function Home() {
               COMING SOON
             </p>
           </div>
+
+          {/* Copyright */}
+          <p className="text-sm text-zinc-700">
+            &copy; {new Date().getFullYear()} Base 2 LLC. All rights reserved.
+          </p>
         </div>
       </main>
     </div>

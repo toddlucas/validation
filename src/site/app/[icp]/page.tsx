@@ -142,6 +142,13 @@ export default async function ICPLandingPage({ params }: { params: Promise<{ icp
           </WaitlistButton>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="px-4 py-6 bg-zinc-100 dark:bg-zinc-950 border-t border-zinc-200 dark:border-zinc-800">
+        <p className="text-center text-sm text-muted-foreground">
+          &copy; {new Date().getFullYear()} Base 2 LLC. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }
